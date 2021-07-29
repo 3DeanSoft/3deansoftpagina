@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>
+        3DeanSoft
+    </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="ScriptPrincipal.js"></script>
+</head>
+<body>
+ <div id="Contenido">
+ 	<header>
+ 		<hgroup>
+ 				<h1>
+ 					3DeanSoft
+ 				</h1>
+ 		</hgroup>
+ 		 	<nav>
+ 		<ul>
+ 			<li><a href="index.html">
+ 				Inicio
+ 				</a>
+ 			</li>
+ 			<li><a href="video.html">
+ 			 Videos
+ 			</a>
+ 			</li>
+ 			<li><a href="contacto.html">
+ 			 Contacto
+ 			</a>
+ 			</li>
+ 			<li><a href="comprar.html">
+ 			 Comprar
+ 			</a>
+ 			</li>
+ 		</ul>
+ 	</nav>
+ 	    </header>
+        	<section>
+ 	            <div id="TextoPr">
+ 			        <label for="nombre">Nombre:</label>
+                    <input type="text" id='nombre' placeholder="Escribe tu nombre" required>
+                    <label for="correo">E-mail:</label>
+                    <input type="email" id="correo" placeholder="Escribe tu e-mail" required>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad" min="0" max="100">
+                    <label for="calificacion">Califícanos: </label>
+                    <input type="range" id="calificacion"  min="0" max="10" value="0">
+                    <label for="fecha">Fecha:</label>
+                    <input type='date' id='fecha'>
+                    <a href="mailto:3deansoft@gmail.com" target="_blank">   Enviar</a>
+                </div>
+ <footer>
+ 	<canvas id="miCanvas">
+                
+ 	</canvas>
+ </footer>
+</body>
+</html>
